@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="main.css">
+<link rel="icon" href="images/fav.png">
+</head>
+<body class="bodyc">
+  <div class="logoc">
+    <img src="images/main.png" alt="logo" class="imagec">  
+    <h1 class="shape11">Coder 5</h1>   
+  </div>
+<header>
+<nav class="links">
+    <ul>
+<li> <a href="../index.html">Home</a> </li>
+<li> <a href="../login.html">Login</a> </li>
+    <li> <a href="#">Team-Members</a>
+       <ul> 
+         <li> <a href="../data/coder/data.html">Data’s-Profile </a> </li>
+         <li> <a href="profile.html">Arsheya’s-Profile </a> </li>
+         <li> <a href="../bio-page.html">Noor’s-Profile </a> </li>
+       </ul>
+    </li>
+<li> <a href="news.html">News</a> </li>
+<li> <a href="../toturial.html">Tutorials</a> </li>
+<li> <a href="games.html">Play-Games</a> </li>
+<li> <a href="podcast.html">PodCast</a> </li>
+<li> <a href="contact.html">Contact-us</a> </li>
+     </ul>
+</nav>        
+</header>
+<h3 class="headingc">Contact Form</h3>
+
+<div class="containerc">
+  <form method="GET">
+    <label for="fname">First Name</label>
+    <span style="color: red;">*</span><br/>
+    <input type="text" id="fname" name="firstname" placeholder="Your Firstname.." required>
+    
+
+    <label for="lname">Last Name</label>
+    <span style="color: red;">*</span><br/>
+    <input type="text" id="lname" name="lastname" placeholder="Your Last name.." required>
+    
+    <label for="email">Your Email Address:</label>
+    <span style="color: red;">*</span><br/>
+    <input type="email" id="email" name="email" placeholder="Your Email Address.." required>
+
+    <label for="country">Country</label>
+    <span style="color: red;">*</span><br/>
+    <select id="country" name="country">
+      <option value="australia">Canada</option>
+      <option value="canada">India</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+    <input type="submit" id="submit" value="Contact">
+    <br>
+    
+      <div id="map"></div>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8bUe6jv-HeQheUbQ5CQOu8AlPmRmAuqs&callback=initMap">
+      </script>
+    
+    <div id="directions">
+      <p>You want directions!!!</p>
+    <a href="https://www.google.com/maps/place/Humber+College/@43.7289164,-79.6089591,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3a5391c12321:0x747f0c3b5cdecaa0!8m2!3d43.7289164!4d-79.6067704">Click Here!!</a>
+  </div>
+  </form>
+  
+<footer>
+  <p class="footc">&copy; All Rights Reserved 2019 <a href="Terms&Conditions.pdf" id="terms">"Terms&Conditions"</a></p>
+</footer>
+</div>
+<script src="validate.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Coder 5 about us page" />
+    <meta
+      name="keywords"
+      content="HTML,CSS,XML,JavaScript, home-page, coder-5, login, signup, Contact-us, contact,  Data’s-Profile"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../coder/main.css" />
+    <link rel="shortcut icon" href="../images/favicon.jpg" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="container">
+          <li><a href="/home-page.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="coder5tv.html">Coder5 tv</a></li>
+          <li><a href="data.html">Data's Profile</a></li>
+        </ul>
+      </nav>
+      <div class="topic">
+        <h2>Who we are & What we do.</h2>
+      </div>
+    </header>
+    <section>
+      <main>
+        <article>
+          <p>
+            We are a team of UX Designers and Front End Developers that work
+            towards making sure our clients are fully satisfied with our work.
+            We started as class mates at Humber and have worked together on
+            various projects.
+          </p>
+          <p>
+            The team comprises of Data, Noor and Arsheya. You can find out more
+            about each team member from their profile page, links are above.
+          </p>
+
+          <!-- Google Search -->
+          <form method="get" action="http://www.google.com/search">
+            <input type="search" name="q" size="30" maxlength="255" />
+            <input type="hidden" name="domains" value="http://www.murach.com" />
+            <input
+              type="hidden"
+              name="sitesearch"
+              value=""
+            />
+            <input type="submit" id="search" value="Search" />
+          </form>
+          <p>
+            Here is a calculator to help you set a budget. For UX Design, our
+            rate is $50 / hour. For Front End Development, our rate is $120 /
+            hour. We require a minimum of 8 hours for UX Design and 15 hours for
+            Front End Development.
+          </p>
+        </article>
+
+      
+
+        <form onsubmit="return false">
+          <input name="x" type="number" min="100" step="5" value="100" /> +
+          <input
+            name="y"
+            type="number"
+            min="100"
+            step="5"
+            value="100"
+          /><br /><br />
+          <input
+            type="button"
+            value="Calculate"
+            onClick="result.value = parseInt(x.value) + parseInt(y.value)"
+          />
+          <br /><br />
+          Total: <output name="result" for="x y"></output>
+        </form>
+
+        <p>Enter your name and email address in the fields, then click "Submit" and someone would get back to you:</p>
+
+        <form id="contact" action="subscribe.php">
+         First name: <input type="text" name="fname"><br>
+         Last name: <input type="text" name="lname"><br><br>
+         Email: <input type="text" name="email"><br><br>
+         <input type="button" onclick="myFunction()" value="Submit">
+       </form>
+        
+      </main>
+    </section>
+
+  
+    <script scr="main.js"></script>
+
+
+    <table class="styled">
+        <tr>
+            <th colspan="3">Price Table</th>
+        </tr>
+        <tr>
+            <td>UX Design</td>
+            <td>Front End Development</td>
+            <td>Back End Development</td>
+        </tr>
+        <tr>
+            <td>$50 / Hour (< 4 hours)</td>
+            <td>$120 / Hour (< 4 hours)</td>
+            <td>$150 / Hour (< 4 hours)</td>
+        </tr>
+        <tr>
+            <td>$40 / Hour (> 4 hours)</td>
+            <td>$100 / Hour (> 4 hours)</td>
+            <td>$120 / Hour (> 4 hours)</td>
+        </tr>
+    </table>
+    <footer>
+      <input type="text" class="seacrh-bar" placeholder="Search" />
+        &copy; All Rights Reserved 2019
+      </p>
+    </footer>
+  </body>
+</html>
