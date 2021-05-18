@@ -1,6 +1,6 @@
-- _Name: Noar Rassam
-- _Arsheya Tripathi
-- _Emmanuel Data Akangbou
+- Name: Noar Rassam
+- Arsheya Tripathi
+- Emmanuel Data Akangbou
 
 # Coder 5 Project
 
