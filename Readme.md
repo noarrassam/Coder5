@@ -166,6 +166,6 @@ Coder 5 TV is the edutainment section of the website. This page showcases videos
 
 ## License & Copyright
 
-© Noar Rassam
+© Noar Rassam, Arsheya Tripathi, Emmanuel Data Akangbou
 
 Licensed under the [MIT License](License).
