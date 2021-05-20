@@ -44,3 +44,9 @@ function initMap() {
 
 
 ```
+
+## License & Copyright
+
+© Noar Rassam
+
+Licensed under the [MIT License](License).

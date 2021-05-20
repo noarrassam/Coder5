@@ -163,3 +163,9 @@ Coder 5 TV is the edutainment section of the website. This page showcases videos
 
 
 ```
+
+## License & Copyright
+
+© Noar Rassam
+
+Licensed under the [MIT License](License).
